@@ -13,3 +13,59 @@ button:hover {
   background-color: rgb(20, 101, 182);
   cursor: pointer;
 }
+
+
+.mock2-container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+
+}
+/*
+
+    border-top-left-radius
+    border-top-right-radius
+    border-bottom-right-radius
+    border-bottom-left-radius
+*/
+.cat-image {
+  min-width: inherit;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.text-container {
+  background-color: rgb(161, 161, 161);
+  border-radius: 0px 0px 10px 10px;
+
+}
+
+.text-container h4, .text-container p {
+  padding: 10px;
+}
+
+.text-container h4 {
+  margin: 0px;
+  padding: 30px 10px;
+  border-bottom: 1px solid black;
+}
+
+
+/*In theory, Mock 3 position
+
+hovertext {
+  display: none;
+  transition: top/left? transform?
+  position: relative/absolute
+  push down
+}
+
+hovertext:hover {
+  display: block;
+  position: absolute;
+
+
+
+*/
